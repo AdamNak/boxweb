@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* NAVIGACE */
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+nav ul {
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    gap: 2em;
+    width: max-content;
+    margin: 0px auto;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    /*line-height: 45px;*/
+    font-size: 1.1em;
+    display: block;
+    padding: 1.5em 0em ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+
+} 
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* KONEC NAVIGACE*/
+
+
+/*KONTAKTY*/
+main h1 {
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+#ptr {
+    margin-left: 900px;
+    margin-top: 150px;
+}
+
+#ptn {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#mr {
+    margin-left: 900px;
+    margin-top: 200px;
+}
+
+#pd {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#mt {
+    margin-left: 900px;
+    margin-top: 200px;
+}
+
+#vr {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+
+/*Tréninky*/
+#nad {
+    margin-left: 300px;
+}
+
+#nad1 {
+    margin-left: 300px;
+}
+
+#nad2 {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#nad3 {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#nad4 {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+#tab1{
+    border-collapse: collapse;
+}
+
+
+#tab1 th {
+    background-color: grey;
+    text-align: center;
+}
+
+#tab1 td {
+    text-align: center;
+}
+
+#tab {
+    margin-left: 300px;
+}
+
+#ods3 {
+    display: block;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ods4 {
+    margin-left: 350px;
+}
+
+#ods5 {
+    margin-left: 350px;
+}
+
+#obst {
+    margin-left: 350px;
+}
+
+/* SPOLUPRÁCE */
+
+main h2  {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+main h3 {
+    margin-left: 300px;
+}
+
+#spon {
+    margin-left: 200px;
+}
+
+#spon2 {
+    margin-left: 200px;
+}
+
+#log1 {
+    margin-left: 100px;
+}
+
+
+
+
+
+

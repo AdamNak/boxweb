@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background:url("1652785962525.jpg");
+    height: 100vh;
+    background-size: cover;
+}   
+
+header img {
+    height: 200px;
+   
+}
+
+/* NAVIGACE */
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+nav ul {
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    gap: 2em;
+    width: max-content;
+    margin: 0px auto;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    /*line-height: 45px;*/
+    font-size: 1.1em;
+    display: block;
+    padding: 1.5em 0em ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+
+} 
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* KONEC NAVIGACE */
+
+
+main h1 {
+    text-align: center;
+}
+
+#n1 {
+    text-align: center;
+}
+
+#ods {
+    display: block;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#ods1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.497);
+}
+
+#L1 {
+    margin-left: 100px;
+    
+}
+
